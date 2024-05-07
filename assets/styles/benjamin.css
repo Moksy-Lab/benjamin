@@ -136,17 +136,27 @@ font-size: var(--heading-large);
 .calltoactioncar5grele4a .h5{
     display: none;
 }
-.calltoactioncar5grele4a .btn-outline-primary{
+.calltoactioncar5grele4a .btn-outline-primary,
+.calltoactioncar5grele4a .btn-outline-primary:not(:disabled):not(.disabled):active,
+.calltoactioncar5grele4a .btn-outline-primary:hover{
     background-color: var(--error-Color);
     border-color: var(--error-Color);
     color: var(--main-Background-Color);
 }
-.calltoactioncar5grele4a .btn-primary{
+.calltoactioncar5grele4a .btn-primary,
+.calltoactioncar5grele4a .btn-outline-primary:not(:disabled):not(.disabled):active,
+.calltoactioncar5grele4a .btn-outline-primary:hover{
     background-color: var(--black-Color);
     border-color: var(--black-Color);
     color: var(--main-Background-Color);
 }
+.calltoactioncar5grele4a .pt-5{
+    padding-top: 1rem !important;
+}
 /*faqf013287cc03d37647*/
+.faqf013287cc03d37647 h2{
+font-size: var(--heading-large);
+    }
 .faqf013287cc03d37647 .faq-section{
 padding: 0vh 0 0;
 min-height: 68vh;
@@ -156,6 +166,9 @@ min-height: 68vh;
 }
 .faqf013287cc03d37647 .faq .card .card-header .faq-title .badge{
     background: var(--primary-Color);
+}
+.faqf013287cc03d37647 .faq .card .card-header .faq-title{
+    font-size: var(--paragraph);
 }
 /*testimonialtmrwms6esfu*/
 .testimonialtmrwms6esfu .fdb-block{
@@ -169,7 +182,7 @@ min-height: 68vh;
     padding: 3.5rem 0;
 }
 .pricesteraco9r7ex h1{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 .pricesteraco9r7ex .bg-dark {
     background-color: var(--black-Color) !important;
@@ -183,15 +196,21 @@ min-height: 68vh;
 }
 /*sophiefeqi4z0a4ku*/
 .sophiefeqi4z0a4ku .lead {
-    font-size: var(--heading-two);
+    font-size: var(--heading-medium);
     font-weight: var(--button-font-weight);
 }
 .sophiefeqi4z0a4ku .fab{
     color: var(--primary-Color);
 }
+.sophiefeqi4z0a4ku .h2{
+    font-size: var(--heading-medium);
+}
 /*quoteq50b1c56df5d4596e*/
 .quoteq50b1c56df5d4596e .btn-primary:after {
     background: linear-gradient(45deg, var(--alert-Color) 0%, var(--success-Color) 100%);
+}
+.quoteq50b1c56df5d4596e h3{
+    font-size: var(--heading-large);
 }
 /*fingerftg80mqpach*/
 .fingerftg80mqpach .bg-dark {
