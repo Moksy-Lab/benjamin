@@ -138,7 +138,12 @@ font-size: var(--heading-large);
 }
 .calltoactioncar5grele4a .btn-outline-primary{
     background-color: var(--error-Color);
-    border-color: 1px solid var(--error-Color);
+    border-color: var(--error-Color);
+    color: var(--main-Background-Color);
+}
+.calltoactioncar5grele4a .btn-primary{
+    background-color: var(--black-Color);
+    border-color: var(--black-Color);
     color: var(--main-Background-Color);
 }
 /*faqf013287cc03d37647*/
