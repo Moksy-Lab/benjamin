@@ -144,8 +144,8 @@ font-size: var(--heading-large);
     color: var(--main-Background-Color);
 }
 .calltoactioncar5grele4a .btn-primary,
-.calltoactioncar5grele4a .btn-outline-primary:not(:disabled):not(.disabled):active,
-.calltoactioncar5grele4a .btn-outline-primary:hover{
+.calltoactioncar5grele4a .btn-primary:not(:disabled):not(.disabled):active,
+.calltoactioncar5grele4a .btn-primary:hover{
     background-color: var(--black-Color);
     border-color: var(--black-Color);
     color: var(--main-Background-Color);
